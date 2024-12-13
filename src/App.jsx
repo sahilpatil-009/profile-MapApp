@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Admin from "./pages/admin";
+import Admin from "./pages/Admin";
 
 const App = () => {
   const [profiles, setProfiles] = useState(() => {

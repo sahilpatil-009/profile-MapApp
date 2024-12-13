@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./styles/admin.module.css";
-import { Country, State, City } from "country-state-city";
-import { useNavigate } from "react-router-dom";
 import AddUserForm from "./AddUserForm";
 
 const Admin = ({ addProfile }) => {
