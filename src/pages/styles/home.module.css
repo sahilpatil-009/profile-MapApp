@@ -1,0 +1,74 @@
+.main {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.ControlBox {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 2px rgba(255, 32, 32, 0.3);
+}
+
+.search {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #e3e3e3;
+  gap: 15px;
+  padding: 10px 10px;
+  margin: 20px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.search input {
+  all: unset;
+  width: 100%;
+}
+
+.searchButton {
+  all: unset;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #ed5353;
+  cursor: pointer;
+}
+
+.AdminAddBtn {
+  height: 60px;
+  width: 60px;
+  display: none;
+  font-size: 50px;
+  border-radius: 50%;
+  background-color: #ed5353;
+  color: #fff;
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .ControlBox {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .ControlBox{
+    display: none;
+  }
+  .AdminAddBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,6 @@
+
+.active{ 
+    background-color: #FF6B6B;
+    font-weight: 600;
+    transition: all .5s ease;
+}
