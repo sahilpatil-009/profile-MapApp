@@ -1,1 +1,1 @@
-Peofilw-MapApp Demo >> https://profile-map-app-chi.vercel.app/
+Profile-MapApp Demo >> https://profile-map-app-chi.vercel.app/
